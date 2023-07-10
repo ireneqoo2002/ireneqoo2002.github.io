@@ -1,12 +1,14 @@
 
 h1{
 	font-family: 'Noto Sans TC', sans-serif;
-	color: rgb(255, 255, 255); 
+	color: rgb(255, 255, 255);
+
 }
 h4{
 	font-family: 'Noto Sans TC', sans-serif;
 	color: rgb(255, 255, 255);
 	text-align: center;	
+	
 }
 h3{
 	font-family: 'Noto Sans TC', sans-serif;
@@ -24,6 +26,8 @@ p,a,span,li,label{
 img{
 	max-width:50%;
 	text-align: center;	
+	display: block;
+ 	margin: 0 auto;
 }
 nav li{
 	    margin:30px;
@@ -39,7 +43,7 @@ nav {
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
-    height:500px;
+    height: 100vh;
     margin-bottom: 0px;
 }
 #intro .jumbotron .container{
@@ -53,7 +57,7 @@ nav {
 }
 .btn{
     background-color: #f05f5c;
-    padding: 7px 28px;
+    padding: 20px 50px;
     border-radius: 20px;
     border: none;
 }
@@ -92,8 +96,6 @@ p.lead{
 }
 #latest .upper{
 	position:relative;
-	padding: auto;
-	bottom:20px;
 }
 #latest .innertext{
 	position:absolute;
@@ -341,24 +343,15 @@ html {
   .footer {
 	background-color: rgba(83, 83, 83, 0.699);
   }
-  .owl-dots {
-    text-align: center;
-}
-.owl-dots button.owl-dot.active span, 
-.owl-dots button.owl-dot:hover span {
-  background-color: #FEAE00;
-  border-radius: 50%;
-  height: 12px;
-  width: 12px;
-  position: absolute;
-  top: 1px;
-  left:1px;
-}
-.owl-dots button.owl-dot{
-  border: 1px solid gray;
-  background: white;
-   border-radius: 50%;
-   height: 16px;
-   width: 16px;
-   position: relative;
-}	
+  .owl-theme .item {
+	height: 10rem;
+	background: #4dc7a0;
+	padding: 1rem;
+  }
+  
+  .owl-carousel .item h4 {
+	color: #fff;
+	font-weight: 400;
+	font-size: 1.4375rem;
+	margin-top: 0rem;
+  }
