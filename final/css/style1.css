@@ -355,3 +355,18 @@ html {
 	font-size: 1.4375rem;
 	margin-top: 0rem;
   }
+  
+  .carousel.item {
+	
+    height: 50px;
+	width: 10px;
+}
+  .carousel-inner > .item > img {	
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 10%;
+    height: 5px;
+}
+   
+   
