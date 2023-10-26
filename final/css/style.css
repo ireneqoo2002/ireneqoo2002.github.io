@@ -163,7 +163,7 @@ footer ul{
     padding: 0;
 }
 footer ul a{
-	color: #707070;
+	color: #bbbbbb;
 }
 footer a{
 	color:#f05f5c;
@@ -172,7 +172,7 @@ footer a:hover{
 	color:#f05f5c;
 }
 footer ul a:hover{
-	color: #707070;
+	color: #bbbbbb;
 	text-decoration: none;
 	opacity: 0.8;
 }

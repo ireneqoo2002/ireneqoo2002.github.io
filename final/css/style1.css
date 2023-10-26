@@ -341,7 +341,7 @@ html {
 	flex-grow: 1; /*可佔滿垂直剩餘的空間*/
   }
   .footer {
-	background-color: rgba(83, 83, 83, 0.699);
+	background-color: rgba(218, 218, 218, 0.699);
   }
   .owl-theme .item {
 	height: 10rem;
